@@ -40,6 +40,85 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-121",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 694.400010347366333, 85.0, 137.0, 35.0 ],
+					"presentation_linecount" : 2,
+					"text" : "Read preset file and activate first preset"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 640.400009334087372, 91.5, 46.0, 22.0 ],
+					"text" : "read, 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-119",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 442.666679859161377, 160.0, 162.0, 22.0 ],
+					"presentation_linecount" : 5,
+					"text" : "script npm install drawsocket"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bubble" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-118",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 694.400010347366333, 59.5, 137.0, 23.0 ],
+					"text" : "Write presets to file"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-117",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 626.400009334087372, 60.0, 56.0, 22.0 ],
+					"text" : "writejson"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-115",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 626.400009334087372, 125.333337068557739, 70.0, 22.0 ],
+					"text" : "pvar DJster"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-114",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -503,7 +582,7 @@
 								"/layout" : "single",
 								"/usurp" : 0,
 								"/window/title" : "Spat Viewer",
-								"/window/visible" : 1,
+								"/window/visible" : 0,
 								"/window/moveable" : 1,
 								"/window/resizable" : 1,
 								"/window/enable" : 1,
@@ -514,7 +593,7 @@
 								"/window/fullscreen" : 0,
 								"/window/minimise" : 0,
 								"/window/scale" : 100.0,
-								"/window/rendering/engine" : "CoreGraphics Renderer",
+								"/window/rendering/engine" : "",
 								"/window/rendering/fps/visible" : 0,
 								"/window/floating" : 0,
 								"/window/hidesondeactivate" : 0,
@@ -697,7 +776,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 692.0, 59.5, 216.0, 23.0 ],
+					"patching_rect" : [ 694.400010347366333, 137.600001156330109, 216.0, 23.0 ],
 					"text" : "Double-click to open  browser interface"
 				}
 
@@ -2645,7 +2724,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 67.0, 100.0, 553.0, 713.0 ],
+						"rect" : [ 67.0, 100.0, 440.0, 713.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2710,7 +2789,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 617.0, 59.5, 61.0, 22.0 ],
+					"patching_rect" : [ 626.400009334087372, 160.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3552,7 +3631,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-17",
@@ -4974,7 +5052,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 180.0, 17.0, 262.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 903, 252, 1512, 568 ],
+						"client_rect" : [ 1187, 252, 1796, 568 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 780, 524, 1380, 824 ]
@@ -5330,8 +5408,29 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"source" : [ "obj-117", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-115", 0 ],
+					"source" : [ "obj-120", 0 ]
 				}
 
 			}
@@ -5374,6 +5473,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-61", 0 ],
+					"order" : 1,
 					"source" : [ "obj-20", 0 ]
 				}
 
