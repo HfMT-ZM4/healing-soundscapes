@@ -1,0 +1,998 @@
+{
+	"HSS_acoustic_pack1_bowl1.instr.json" : 	{
+		"1" : 		{
+			"sample" : "bowl1_mallet1-A3-ff.wav",
+			"root_key" : 57,
+			"key_zone_floor" : 57,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"2" : 		{
+			"sample" : "bowl1_mallet2-A3-ff.wav",
+			"root_key" : 57,
+			"key_zone_floor" : 57,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+
+	}
+,
+	"HSS_acoustic_pack1_energychime_plastic.instr.json" : 	{
+		"1" : 		{
+			"sample" : "energychime_plastic-E6-pp.wav",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"2" : 		{
+			"sample" : "energychime_plastic-E6-mf.wav",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"3" : 		{
+			"sample" : "energychime_plastic-E6-ff.wav",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+
+	}
+,
+	"HSS_acoustic_pack1_energychime_wood.instr.json" : 	{
+		"1" : 		{
+			"sample" : "energychime_wood-E6-pp.wav",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"2" : 		{
+			"sample" : "energychime_wood-E6-mf.wav",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"3" : 		{
+			"sample" : "energychime_wood-E6-ff.wav",
+			"root_key" : 88,
+			"key_zone_floor" : 88,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+
+	}
+,
+	"HSS_acoustic_pack1_jing_cotton_harmonics.instr.json" : 	{
+		"1" : 		{
+			"sample" : "jing_cotton_harmonmics-A0-ff.wav",
+			"root_key" : 21,
+			"key_zone_floor" : 21,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"2" : 		{
+			"sample" : "jing_cotton_harmonmics-A1-ff.wav",
+			"root_key" : 33,
+			"key_zone_floor" : 33,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+
+	}
+,
+	"HSS_acoustic_pack1_jing_cotton_ord.instr.json" : 	{
+		"1" : 		{
+			"sample" : "jing_cotton_ord-A0-pp.wav",
+			"root_key" : 21,
+			"key_zone_floor" : 21,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"2" : 		{
+			"sample" : "jing_cotton_ord-A0-mf.wav",
+			"root_key" : 21,
+			"key_zone_floor" : 21,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"3" : 		{
+			"sample" : "jing_cotton_ord-A0-ff.wav",
+			"root_key" : 21,
+			"key_zone_floor" : 21,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+
+	}
+,
+	"HSS_acoustic_pack1_kalimba_bass.instr.json" : 	{
+		"1" : 		{
+			"sample" : "kalimba_bass-F#1-pp.wav",
+			"root_key" : 30,
+			"key_zone_floor" : 30,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"2" : 		{
+			"sample" : "kalimba_bass-F#1-mf.wav",
+			"root_key" : 30,
+			"key_zone_floor" : 30,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"3" : 		{
+			"sample" : "kalimba_bass-F#1-ff.wav",
+			"root_key" : 30,
+			"key_zone_floor" : 30,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"4" : 		{
+			"sample" : "kalimba_bass-G#1-pp.wav",
+			"root_key" : 32,
+			"key_zone_floor" : 32,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"5" : 		{
+			"sample" : "kalimba_bass-G#1-mf.wav",
+			"root_key" : 32,
+			"key_zone_floor" : 32,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"6" : 		{
+			"sample" : "kalimba_bass-G#1-ff.wav",
+			"root_key" : 32,
+			"key_zone_floor" : 32,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"7" : 		{
+			"sample" : "kalimba_bass-A#1-pp.wav",
+			"root_key" : 34,
+			"key_zone_floor" : 34,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"8" : 		{
+			"sample" : "kalimba_bass-A#1-mf.wav",
+			"root_key" : 34,
+			"key_zone_floor" : 34,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"9" : 		{
+			"sample" : "kalimba_bass-A#1-ff.wav",
+			"root_key" : 34,
+			"key_zone_floor" : 34,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"10" : 		{
+			"sample" : "kalimba_bass-C2-pp.wav",
+			"root_key" : 36,
+			"key_zone_floor" : 36,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"11" : 		{
+			"sample" : "kalimba_bass-C2-mf.wav",
+			"root_key" : 36,
+			"key_zone_floor" : 36,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"12" : 		{
+			"sample" : "kalimba_bass-C2-ff.wav",
+			"root_key" : 36,
+			"key_zone_floor" : 36,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"13" : 		{
+			"sample" : "kalimba_bass-C#2-pp.wav",
+			"root_key" : 37,
+			"key_zone_floor" : 37,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"14" : 		{
+			"sample" : "kalimba_bass-C#2-mf.wav",
+			"root_key" : 37,
+			"key_zone_floor" : 37,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"15" : 		{
+			"sample" : "kalimba_bass-C#2-ff.wav",
+			"root_key" : 37,
+			"key_zone_floor" : 37,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"16" : 		{
+			"sample" : "kalimba_bass-D#2-pp.wav",
+			"root_key" : 39,
+			"key_zone_floor" : 39,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"17" : 		{
+			"sample" : "kalimba_bass-D#2-mf.wav",
+			"root_key" : 39,
+			"key_zone_floor" : 39,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"18" : 		{
+			"sample" : "kalimba_bass-D#2-ff.wav",
+			"root_key" : 39,
+			"key_zone_floor" : 39,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"19" : 		{
+			"sample" : "kalimba_bass-E2-pp.wav",
+			"root_key" : 40,
+			"key_zone_floor" : 40,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"20" : 		{
+			"sample" : "kalimba_bass-E2-mf.wav",
+			"root_key" : 40,
+			"key_zone_floor" : 40,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"21" : 		{
+			"sample" : "kalimba_bass-E2-ff.wav",
+			"root_key" : 40,
+			"key_zone_floor" : 40,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"22" : 		{
+			"sample" : "kalimba_bass-F2-pp.wav",
+			"root_key" : 41,
+			"key_zone_floor" : 41,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"23" : 		{
+			"sample" : "kalimba_bass-F2-mf.wav",
+			"root_key" : 41,
+			"key_zone_floor" : 41,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"24" : 		{
+			"sample" : "kalimba_bass-F2-ff.wav",
+			"root_key" : 41,
+			"key_zone_floor" : 41,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"25" : 		{
+			"sample" : "kalimba_bass-G#2-pp.wav",
+			"root_key" : 44,
+			"key_zone_floor" : 44,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"26" : 		{
+			"sample" : "kalimba_bass-G#2-mf.wav",
+			"root_key" : 44,
+			"key_zone_floor" : 44,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"27" : 		{
+			"sample" : "kalimba_bass-G#2-ff.wav",
+			"root_key" : 44,
+			"key_zone_floor" : 44,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+
+	}
+,
+	"HSS_acoustic_pack1_kalimba1_circleskin.instr.json" : 	{
+		"1" : 		{
+			"sample" : "kalimba1_circleskin-C3-pp.wav",
+			"root_key" : 48,
+			"key_zone_floor" : 48,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"2" : 		{
+			"sample" : "kalimba1_circleskin-C3-mf.wav",
+			"root_key" : 48,
+			"key_zone_floor" : 48,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"3" : 		{
+			"sample" : "kalimba1_circleskin-C3-ff.wav",
+			"root_key" : 48,
+			"key_zone_floor" : 48,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"4" : 		{
+			"sample" : "kalimba1_circleskin-E3-pp.wav",
+			"root_key" : 52,
+			"key_zone_floor" : 52,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"5" : 		{
+			"sample" : "kalimba1_circleskin-E3-mf.wav",
+			"root_key" : 52,
+			"key_zone_floor" : 52,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"6" : 		{
+			"sample" : "kalimba1_circleskin-E3-ff.wav",
+			"root_key" : 52,
+			"key_zone_floor" : 52,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"7" : 		{
+			"sample" : "kalimba1_circleskin-A3-pp.wav",
+			"root_key" : 57,
+			"key_zone_floor" : 57,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"8" : 		{
+			"sample" : "kalimba1_circleskin-A3-mf.wav",
+			"root_key" : 57,
+			"key_zone_floor" : 57,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"9" : 		{
+			"sample" : "kalimba1_circleskin-A3-ff.wav",
+			"root_key" : 57,
+			"key_zone_floor" : 57,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"10" : 		{
+			"sample" : "kalimba1_circleskin-B3-pp.wav",
+			"root_key" : 59,
+			"key_zone_floor" : 59,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"11" : 		{
+			"sample" : "kalimba1_circleskin-B3-mf.wav",
+			"root_key" : 59,
+			"key_zone_floor" : 59,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"12" : 		{
+			"sample" : "kalimba1_circleskin-B3-ff.wav",
+			"root_key" : 59,
+			"key_zone_floor" : 59,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"13" : 		{
+			"sample" : "kalimba1_circleskin-C4-pp.wav",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"14" : 		{
+			"sample" : "kalimba1_circleskin-C4-mf.wav",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"15" : 		{
+			"sample" : "kalimba1_circleskin-C4-ff.wav",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"16" : 		{
+			"sample" : "kalimba1_circleskin-E4-pp.wav",
+			"root_key" : 64,
+			"key_zone_floor" : 64,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"17" : 		{
+			"sample" : "kalimba1_circleskin-E4-mf.wav",
+			"root_key" : 64,
+			"key_zone_floor" : 64,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"18" : 		{
+			"sample" : "kalimba1_circleskin-E4-ff.wav",
+			"root_key" : 64,
+			"key_zone_floor" : 64,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+
+	}
+,
+	"HSS_acoustic_pack1_kalimba2_wood.instr.json" : 	{
+		"1" : 		{
+			"sample" : "kalimba2_wood-A2-pp.wav",
+			"root_key" : 45,
+			"key_zone_floor" : 45,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"2" : 		{
+			"sample" : "kalimba2_wood-A2-ff.wav",
+			"root_key" : 45,
+			"key_zone_floor" : 45,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"3" : 		{
+			"sample" : "kalimba2_wood-C3-pp.wav",
+			"root_key" : 48,
+			"key_zone_floor" : 48,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"4" : 		{
+			"sample" : "kalimba2_wood-C3-mf.wav",
+			"root_key" : 48,
+			"key_zone_floor" : 48,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"5" : 		{
+			"sample" : "kalimba2_wood-D3-pp.wav",
+			"root_key" : 50,
+			"key_zone_floor" : 50,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"6" : 		{
+			"sample" : "kalimba2_wood-D3-mf.wav",
+			"root_key" : 50,
+			"key_zone_floor" : 50,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"7" : 		{
+			"sample" : "kalimba2_wood-D3-ff.wav",
+			"root_key" : 50,
+			"key_zone_floor" : 50,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"8" : 		{
+			"sample" : "kalimba2_wood-E3-pp.wav",
+			"root_key" : 52,
+			"key_zone_floor" : 52,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"9" : 		{
+			"sample" : "kalimba2_wood-E3-mf.wav",
+			"root_key" : 52,
+			"key_zone_floor" : 52,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"10" : 		{
+			"sample" : "kalimba2_wood-E3-ff.wav",
+			"root_key" : 52,
+			"key_zone_floor" : 52,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"11" : 		{
+			"sample" : "kalimba2_wood-G3-mf.wav",
+			"root_key" : 55,
+			"key_zone_floor" : 55,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"12" : 		{
+			"sample" : "kalimba2_wood-G3-ff.wav",
+			"root_key" : 55,
+			"key_zone_floor" : 55,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"13" : 		{
+			"sample" : "kalimba2_wood-C4-pp.wav",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"14" : 		{
+			"sample" : "kalimba2_wood-C4-mf.wav",
+			"root_key" : 60,
+			"key_zone_floor" : 60,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"15" : 		{
+			"sample" : "kalimba2_wood-D4-pp.wav",
+			"root_key" : 62,
+			"key_zone_floor" : 62,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"16" : 		{
+			"sample" : "kalimba2_wood-D4-mf.wav",
+			"root_key" : 62,
+			"key_zone_floor" : 62,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"17" : 		{
+			"sample" : "kalimba2_wood-D4-ff.wav",
+			"root_key" : 62,
+			"key_zone_floor" : 62,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"18" : 		{
+			"sample" : "kalimba2_wood-E4-pp.wav",
+			"root_key" : 64,
+			"key_zone_floor" : 64,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"19" : 		{
+			"sample" : "kalimba2_wood-E4-mf.wav",
+			"root_key" : 64,
+			"key_zone_floor" : 64,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"20" : 		{
+			"sample" : "kalimba2_wood-E4-ff.wav",
+			"root_key" : 64,
+			"key_zone_floor" : 64,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"21" : 		{
+			"sample" : "kalimba2_wood-A4-pp.wav",
+			"root_key" : 69,
+			"key_zone_floor" : 69,
+			"vel_zone_floor" : 0,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"22" : 		{
+			"sample" : "kalimba2_wood-A4-mf.wav",
+			"root_key" : 69,
+			"key_zone_floor" : 69,
+			"vel_zone_floor" : 63,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+,
+		"23" : 		{
+			"sample" : "kalimba2_wood-A4-ff.wav",
+			"root_key" : 69,
+			"key_zone_floor" : 69,
+			"vel_zone_floor" : 105,
+			"envelope" : 1,
+			"direction" : "fw",
+			"timestretch" : 1,
+			"loop" : [ 0, 0, 0 ],
+			"start" : 0
+		}
+
+	}
+
+}

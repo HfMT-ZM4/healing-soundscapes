@@ -1,0 +1,35 @@
+{
+  "1": {
+    "sample": "energychime_wood-E6-pp.wav",
+    "root_key": 88,
+    "key_zone_floor": 88,
+    "vel_zone_floor": 0,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "2": {
+    "sample": "energychime_wood-E6-mf.wav",
+    "root_key": 88,
+    "key_zone_floor": 88,
+    "vel_zone_floor": 63,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "3": {
+    "sample": "energychime_wood-E6-ff.wav",
+    "root_key": 88,
+    "key_zone_floor": 88,
+    "vel_zone_floor": 105,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  }
+}

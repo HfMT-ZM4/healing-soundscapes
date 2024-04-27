@@ -1,0 +1,24 @@
+{
+  "1": {
+    "sample": "jing_cotton_harmonmics-A0-ff.wav",
+    "root_key": 21,
+    "key_zone_floor": 21,
+    "vel_zone_floor": 105,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "2": {
+    "sample": "jing_cotton_harmonmics-A1-ff.wav",
+    "root_key": 33,
+    "key_zone_floor": 33,
+    "vel_zone_floor": 105,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  }
+}
