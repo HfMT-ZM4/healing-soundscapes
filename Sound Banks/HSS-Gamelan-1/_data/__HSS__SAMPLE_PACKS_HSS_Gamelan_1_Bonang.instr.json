@@ -1,0 +1,222 @@
+{
+  "1": {
+    "sample": "Bonang-C3-f.wav",
+    "root_key": 48,
+    "key_zone_floor": 48,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "2": {
+    "sample": "Bonang-C#3-f.wav",
+    "root_key": 49,
+    "key_zone_floor": 49,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "3": {
+    "sample": "Bonang-D#3-f.wav",
+    "root_key": 51,
+    "key_zone_floor": 51,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "4": {
+    "sample": "Bonang-E3-f.wav",
+    "root_key": 52,
+    "key_zone_floor": 52,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "5": {
+    "sample": "Bonang-F3-f.wav",
+    "root_key": 53,
+    "key_zone_floor": 53,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "6": {
+    "sample": "Bonang-G3-f.wav",
+    "root_key": 55,
+    "key_zone_floor": 55,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "7": {
+    "sample": "Bonang-G#3-f.wav",
+    "root_key": 56,
+    "key_zone_floor": 56,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "8": {
+    "sample": "Bonang-A3-f.wav",
+    "root_key": 57,
+    "key_zone_floor": 57,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "9": {
+    "sample": "Bonang-B3-f.wav",
+    "root_key": 59,
+    "key_zone_floor": 59,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "10": {
+    "sample": "Bonang-C4-f.wav",
+    "root_key": 60,
+    "key_zone_floor": 60,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "11": {
+    "sample": "Bonang-C#4.wav",
+    "root_key": 61,
+    "key_zone_floor": 61,
+    "vel_zone_floor": 0,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "12": {
+    "sample": "Bonang-D#4-f.wav",
+    "root_key": 63,
+    "key_zone_floor": 63,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "13": {
+    "sample": "Bonang-E4-f.wav",
+    "root_key": 64,
+    "key_zone_floor": 64,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "14": {
+    "sample": "Bonang-F4-f.wav",
+    "root_key": 65,
+    "key_zone_floor": 65,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "15": {
+    "sample": "Bonang-G4-f.wav",
+    "root_key": 67,
+    "key_zone_floor": 67,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "16": {
+    "sample": "Bonang-G#4-f.wav",
+    "root_key": 68,
+    "key_zone_floor": 68,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "17": {
+    "sample": "Bonang-A4-f.wav",
+    "root_key": 69,
+    "key_zone_floor": 69,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "18": {
+    "sample": "Bonang-B4-f.wav",
+    "root_key": 71,
+    "key_zone_floor": 71,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "19": {
+    "sample": "Bonang-C5-f.wav",
+    "root_key": 72,
+    "key_zone_floor": 72,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "20": {
+    "sample": "Bonang-D5-f.wav",
+    "root_key": 74,
+    "key_zone_floor": 74,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  }
+}

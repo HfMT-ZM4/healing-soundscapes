@@ -1,0 +1,156 @@
+{
+  "1": {
+    "sample": "Gender-1-A1-f.wav",
+    "root_key": 33,
+    "key_zone_floor": 33,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "2": {
+    "sample": "Gender-1-C#2-f.wav",
+    "root_key": 37,
+    "key_zone_floor": 37,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "3": {
+    "sample": "Gender-1-E2-f.wav",
+    "root_key": 40,
+    "key_zone_floor": 40,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "4": {
+    "sample": "Gender-1-G#2-f.wav",
+    "root_key": 44,
+    "key_zone_floor": 44,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "5": {
+    "sample": "Gender-1-A2-f.wav",
+    "root_key": 45,
+    "key_zone_floor": 45,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "6": {
+    "sample": "Gender-1-B2-f.wav",
+    "root_key": 47,
+    "key_zone_floor": 47,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "7": {
+    "sample": "Gender-1-C#3-f.wav",
+    "root_key": 49,
+    "key_zone_floor": 49,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "8": {
+    "sample": "Gender-1-E3-f.wav",
+    "root_key": 52,
+    "key_zone_floor": 52,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "9": {
+    "sample": "Gender-1-G#3-f.wav",
+    "root_key": 56,
+    "key_zone_floor": 56,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "10": {
+    "sample": "Gender-1-A3-f.wav",
+    "root_key": 57,
+    "key_zone_floor": 57,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "11": {
+    "sample": "Gender-1-B3-f.wav",
+    "root_key": 59,
+    "key_zone_floor": 59,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "12": {
+    "sample": "Gender-1-C#4-f.wav",
+    "root_key": 61,
+    "key_zone_floor": 61,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "13": {
+    "sample": "Gender-1-D#4-f.wav",
+    "root_key": 63,
+    "key_zone_floor": 63,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "14": {
+    "sample": "Gender-1-E4-f.wav",
+    "root_key": 64,
+    "key_zone_floor": 64,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  }
+}

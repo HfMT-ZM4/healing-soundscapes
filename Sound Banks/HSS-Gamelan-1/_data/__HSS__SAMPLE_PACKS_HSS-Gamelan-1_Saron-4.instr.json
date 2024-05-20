@@ -1,0 +1,68 @@
+{
+  "1": {
+    "sample": "Saron-4-D5-1.wav",
+    "root_key": null,
+    "key_zone_floor": null,
+    "vel_zone_floor": 0,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "2": {
+    "sample": "Saron-4-D#5-f.wav",
+    "root_key": 75,
+    "key_zone_floor": 75,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "3": {
+    "sample": "Saron-4-F5-f.wav",
+    "root_key": 77,
+    "key_zone_floor": 77,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "4": {
+    "sample": "Saron-4-G5-f.wav",
+    "root_key": 79,
+    "key_zone_floor": 79,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "5": {
+    "sample": "Saron-4-G#5-f.wav",
+    "root_key": 80,
+    "key_zone_floor": 80,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "6": {
+    "sample": "Saron-4-B5-f.wav",
+    "root_key": 83,
+    "key_zone_floor": 83,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  }
+}

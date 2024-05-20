@@ -1,0 +1,101 @@
+{
+  "1": {
+    "sample": "Kenong-dampend-D#3-f.wav",
+    "root_key": 51,
+    "key_zone_floor": 51,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "2": {
+    "sample": "Kenong-dampend-E3-f.wav",
+    "root_key": 52,
+    "key_zone_floor": 52,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "3": {
+    "sample": "Kenong-dampend-F3-f.wav",
+    "root_key": 53,
+    "key_zone_floor": 53,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "4": {
+    "sample": "Kenong-dampend-G3-f.wav",
+    "root_key": 55,
+    "key_zone_floor": 55,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "5": {
+    "sample": "Kenong-dampend-G#3-f.wav",
+    "root_key": 56,
+    "key_zone_floor": 56,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "6": {
+    "sample": "Kenong-dampend-A3-f.wav",
+    "root_key": 57,
+    "key_zone_floor": 57,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "7": {
+    "sample": "Kenong-dampend-B3-f.wav",
+    "root_key": 59,
+    "key_zone_floor": 59,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "8": {
+    "sample": "Kenong-dampend-C4-f.wav",
+    "root_key": 60,
+    "key_zone_floor": 60,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  },
+  "9": {
+    "sample": "Kenong-dampend-C#4-f.wav",
+    "root_key": 61,
+    "key_zone_floor": 61,
+    "vel_zone_floor": 84,
+    "envelope": 1,
+    "direction": "fw",
+    "timestretch": 1,
+    "loop": [0,0,0],
+    "start": 0
+  }
+}
