@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1444.0, 848.0 ],
+		"rect" : [ 50.0, 100.0, 1343.0, 794.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,249 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-63",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1043.0, 519.0, 82.0, 22.0 ],
+					"text" : "note 4800 0 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 32.0, 499.0, 37.0, 22.0 ],
+					"text" : "panic"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 931.0, 550.0, 95.0, 22.0 ],
+					"text" : "note 4700 120 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 931.0, 519.0, 95.0, 22.0 ],
+					"text" : "note 4800 120 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
+					"id" : "obj-52",
+					"maxclass" : "textbutton",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 9.5, 53.0, 100.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 456.0, 15.0, 109.0, 27.0 ],
+					"text" : "Open Interface",
+					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-47",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 57.0, 704.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 468.5, 604.0, 84.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+
+					}
+,
+					"text" : "Spatialization:",
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 22.0, 184.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 78.0, 18.5, 53.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+
+					}
+,
+					"text" : "Presets:",
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-45",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 22.0, 233.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 18.0, 28.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+
+					}
+,
+					"text" : "Init:",
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 15.0, 703.0, 46.0, 22.0 ],
+					"text" : "/ 1000."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "",
+					"appearance" : 2,
+					"bordercolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"focusbordercolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
+					"hint" : "",
+					"id" : "obj-34",
+					"maxclass" : "live.dial",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 15.0, 603.0, 50.0, 80.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 856.0, 475.0, 50.0, 80.0 ],
+					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+,
+						"focusbordercolor" : 						{
+							"expression" : ""
+						}
+,
+						"textcolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+,
+						"valueof" : 						{
+							"parameter_initial" : [ 1800.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "amount",
+							"parameter_mmax" : 30000.0,
+							"parameter_mmin" : 20.0,
+							"parameter_modmode" : 0,
+							"parameter_shortname" : "Reverb Time",
+							"parameter_type" : 0,
+							"parameter_unitstyle" : 2
+						}
+
+					}
+,
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"varname" : "amount"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 15.0, 733.0, 42.0, 21.0 ],
+					"text" : "/tr0 $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-32",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "multichannelsignal", "" ],
+					"patching_rect" : [ 72.0, 775.0, 197.0, 22.0 ],
+					"saved_object_attributes" : 					{
+						"parameter_enable" : 0
+					}
+,
+					"text" : "spat5.reverb~ @mc 1 @channels 8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 972.0, 132.0, 313.60000467300415, 42.0 ],
+					"text" : "http://192.168.7.12:3002/1\n"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 16.0,
+					"id" : "obj-13",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 972.0, 189.0, 196.0, 24.0 ],
+					"text" : "innovationslabor"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"bubble" : 1,
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
@@ -48,8 +291,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 694.400010347366333, 85.0, 137.0, 35.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 744.0, 85.0, 137.0, 35.0 ],
 					"text" : "Read preset file and activate first preset"
 				}
 
@@ -61,7 +303,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 640.400009334087372, 91.5, 46.0, 22.0 ],
+					"patching_rect" : [ 690.0, 92.0, 46.0, 22.0 ],
 					"text" : "read, 1"
 				}
 
@@ -73,8 +315,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 442.666679859161377, 160.0, 162.0, 22.0 ],
-					"presentation_linecount" : 5,
+					"patching_rect" : [ 493.0, 160.0, 162.0, 22.0 ],
 					"text" : "script npm install drawsocket"
 				}
 
@@ -88,7 +329,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 694.400010347366333, 59.5, 137.0, 23.0 ],
+					"patching_rect" : [ 744.0, 60.0, 137.0, 23.0 ],
 					"text" : "Write presets to file"
 				}
 
@@ -100,7 +341,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 626.400009334087372, 60.0, 56.0, 22.0 ],
+					"patching_rect" : [ 676.0, 60.0, 56.0, 22.0 ],
 					"text" : "writejson"
 				}
 
@@ -112,79 +353,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 626.400009334087372, 125.333337068557739, 70.0, 22.0 ],
+					"patching_rect" : [ 676.0, 125.0, 70.0, 22.0 ],
 					"text" : "pvar DJster"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-114",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 48.000000715255737, 494.0, 32.0, 22.0 ],
-					"text" : "print"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-112",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 890.400013267993927, 580.000008642673492, 89.0, 22.0 ],
-					"text" : "note 7200 70 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-111",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 992.800014793872833, 545.600008130073547, 82.0, 22.0 ],
-					"text" : "note 6400 0 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-110",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 890.400013267993927, 545.600008130073547, 89.0, 22.0 ],
-					"text" : "note 6400 70 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-109",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 992.800014793872833, 513.600007653236389, 82.0, 22.0 ],
-					"text" : "note 6000 0 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-108",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 890.400013267993927, 513.600007653236389, 89.0, 22.0 ],
-					"text" : "note 6000 70 1"
 				}
 
 			}
@@ -195,10 +365,11 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 881.0, 17.0, 56.0, 22.0 ],
+					"patching_rect" : [ 931.0, 17.0, 56.0, 22.0 ],
 					"restore" : 					{
+						"amount" : [ 1800.0 ],
+						"gain" : [ -6.0 ],
 						"live.toggle[4]" : [ 0.0 ],
-						"mc.live.gain~" : [ -4.787401574803152 ],
 						"spat5.viewer" : [ 							{
 								"/source/number" : 8,
 								"/source/1/visible" : 1,
@@ -206,7 +377,7 @@
 								"/source/1/select" : 0,
 								"/source/1/mute" : 0,
 								"/source/1/hidewhenmute" : 0,
-								"/source/1/aed" : [ -54.977176666259766, 0.0, 0.897747576236725 ],
+								"/source/1/aed" : [ -7.70746898651123, 0.0, 0.898743748664856 ],
 								"/source/1/constraint/circular" : 1,
 								"/source/1/coordinates/visible" : 1,
 								"/source/1/orientation/mode" : "default",
@@ -235,7 +406,7 @@
 								"/source/2/select" : 1,
 								"/source/2/mute" : 0,
 								"/source/2/hidewhenmute" : 0,
-								"/source/2/aed" : [ -34.977176666259766, 0.0, 0.897747576236725 ],
+								"/source/2/aed" : [ 12.29253101348877, 0.0, 0.898743748664856 ],
 								"/source/2/constraint/circular" : 1,
 								"/source/2/coordinates/visible" : 1,
 								"/source/2/orientation/mode" : "default",
@@ -264,7 +435,7 @@
 								"/source/3/select" : 0,
 								"/source/3/mute" : 0,
 								"/source/3/hidewhenmute" : 0,
-								"/source/3/aed" : [ 84.755157470703125, 0.0, 0.962589740753174 ],
+								"/source/3/aed" : [ 78.989036560058594, 0.0, 0.906325101852417 ],
 								"/source/3/constraint/circular" : 1,
 								"/source/3/coordinates/visible" : 1,
 								"/source/3/orientation/mode" : "default",
@@ -293,7 +464,7 @@
 								"/source/4/select" : 0,
 								"/source/4/mute" : 0,
 								"/source/4/hidewhenmute" : 0,
-								"/source/4/aed" : [ 104.755157470703125, 0.0, 0.962589740753174 ],
+								"/source/4/aed" : [ 98.989036560058594, 0.0, 0.906325101852417 ],
 								"/source/4/constraint/circular" : 1,
 								"/source/4/coordinates/visible" : 1,
 								"/source/4/orientation/mode" : "default",
@@ -322,7 +493,7 @@
 								"/source/5/select" : 0,
 								"/source/5/mute" : 0,
 								"/source/5/hidewhenmute" : 0,
-								"/source/5/aed" : [ 165.266067504882812, 0.0, 0.978160738945007 ],
+								"/source/5/aed" : [ 174.272567749023438, 0.0, 0.915240049362183 ],
 								"/source/5/constraint/circular" : 1,
 								"/source/5/coordinates/visible" : 1,
 								"/source/5/orientation/mode" : "default",
@@ -351,7 +522,7 @@
 								"/source/6/select" : 0,
 								"/source/6/mute" : 0,
 								"/source/6/hidewhenmute" : 0,
-								"/source/6/aed" : [ -174.733932495117188, 0.0, 0.978160738945007 ],
+								"/source/6/aed" : [ -165.727432250976562, 0.0, 0.915240049362183 ],
 								"/source/6/constraint/circular" : 1,
 								"/source/6/coordinates/visible" : 1,
 								"/source/6/orientation/mode" : "default",
@@ -380,7 +551,7 @@
 								"/source/7/select" : 0,
 								"/source/7/mute" : 0,
 								"/source/7/hidewhenmute" : 0,
-								"/source/7/aed" : [ -102.04644775390625, 0.0, 0.937778949737549 ],
+								"/source/7/aed" : [ -99.075485229492188, 0.0, 0.984438002109528 ],
 								"/source/7/constraint/circular" : 1,
 								"/source/7/coordinates/visible" : 1,
 								"/source/7/orientation/mode" : "default",
@@ -409,7 +580,7 @@
 								"/source/8/select" : 0,
 								"/source/8/mute" : 0,
 								"/source/8/hidewhenmute" : 0,
-								"/source/8/aed" : [ -82.04644775390625, 0.0, 0.937778949737549 ],
+								"/source/8/aed" : [ -79.075485229492188, 0.0, 0.984438002109528 ],
 								"/source/8/constraint/circular" : 1,
 								"/source/8/coordinates/visible" : 1,
 								"/source/8/orientation/mode" : "default",
@@ -582,18 +753,18 @@
 								"/layout" : "single",
 								"/usurp" : 0,
 								"/window/title" : "Spat Viewer",
-								"/window/visible" : 0,
+								"/window/visible" : 1,
 								"/window/moveable" : 1,
 								"/window/resizable" : 1,
 								"/window/enable" : 1,
-								"/window/bounds" : [ 31, 488, 465, 462 ],
+								"/window/bounds" : [ 1047, 387, 465, 462 ],
 								"/window/background/color" : [ 0.82745099067688, 0.82745099067688, 0.82745099067688, 1.0 ],
 								"/window/opaque" : 1,
 								"/window/titlebar" : 1,
 								"/window/fullscreen" : 0,
 								"/window/minimise" : 0,
 								"/window/scale" : 100.0,
-								"/window/rendering/engine" : "",
+								"/window/rendering/engine" : "CoreGraphics Renderer",
 								"/window/rendering/fps/visible" : 0,
 								"/window/floating" : 0,
 								"/window/hidesondeactivate" : 0,
@@ -602,11 +773,11 @@
 								"/window/buttons/maximise" : 1
 							}
  ],
-						"spread" : [ 64.685039370078727 ],
-						"src1" : [ 28, 100 ],
-						"src2" : [ 123, 59 ],
-						"src3" : [ 69, 3 ],
-						"src4" : [ 8, 62 ]
+						"spread" : [ 53.661417322834652 ],
+						"src1" : [ 66, 115 ],
+						"src2" : [ 116, 65 ],
+						"src3" : [ 60, 11 ],
+						"src4" : [ 2, 65 ]
 					}
 ,
 					"text" : "autopattr",
@@ -624,7 +795,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 46.0, 9.0, 94.0, 38.0 ],
+					"patching_rect" : [ 96.0, 9.0, 94.0, 38.0 ],
 					"text" : "dump web page"
 				}
 
@@ -639,100 +810,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 52.0, 94.0, 38.0 ],
+					"patching_rect" : [ 314.0, 52.0, 94.0, 38.0 ],
 					"text" : "start web server"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-99",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1201.5, 822.0, 50.0, 22.0 ],
-					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-100",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1232.5, 789.0, 76.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr amount",
-					"varname" : "amount"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-96",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1110.0, 822.0, 50.0, 22.0 ],
-					"text" : "0"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-98",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1141.0, 789.0, 85.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr roomsize",
-					"varname" : "roomsize"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-94",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1036.0, 822.0, 50.0, 22.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-92",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1067.0, 789.0, 59.0, 22.0 ],
-					"restore" : [ 0 ],
-					"saved_object_attributes" : 					{
-						"parameter_enable" : 0,
-						"parameter_mappable" : 0
-					}
-,
-					"text" : "pattr gain",
-					"varname" : "gain"
 				}
 
 			}
@@ -746,7 +825,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 970.400014460086823, 615.200009167194366, 216.0, 38.0 ],
+					"patching_rect" : [ 1020.0, 595.0, 216.0, 38.0 ],
 					"text" : "Position of stereo sound sources"
 				}
 
@@ -761,7 +840,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 935.0, 91.0, 132.0, 23.0 ],
+					"patching_rect" : [ 985.0, 91.0, 132.0, 23.0 ],
 					"text" : "That's for later",
 					"textjustification" : 1
 				}
@@ -776,7 +855,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 694.400010347366333, 137.600001156330109, 216.0, 23.0 ],
+					"patching_rect" : [ 744.0, 138.0, 216.0, 23.0 ],
 					"text" : "Double-click to open  browser interface"
 				}
 
@@ -790,7 +869,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 593.0, 16.5, 137.0, 23.0 ],
+					"patching_rect" : [ 643.0, 17.0, 137.0, 23.0 ],
 					"text" : "Create your presets"
 				}
 
@@ -798,60 +877,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-85",
-					"linecount" : 4,
+					"linecount" : 3,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 460.0, 888.5, 238.0, 62.0 ],
-					"presentation_linecount" : 8,
-					"text" : "/source/1/spread $1, /source/2/spread $1, /source/3/spread $1, /source/4/spread $1, /source/5spread $1, /source/6/spread $1, /source/7/spread $1, /source/8/spread $1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"extract" : 1,
-					"id" : "obj-84",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "bp.Freeverb.maxpat",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 1121.0, 861.5, 185.029999000000004, 122.0 ],
-					"varname" : "bp.Freeverb",
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"extract" : 1,
-					"id" : "obj-83",
-					"lockeddragscroll" : 0,
-					"lockedsize" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "bp.Feedback Delay.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 825.0, 861.5, 279.0, 116.0 ],
-					"varname" : "bp.Feedback Delay",
-					"viewvisibility" : 1
+					"patching_rect" : [ 507.5, 899.0, 348.0, 49.0 ],
+					"text" : "/source/1/spread $1, /source/2/spread $1, /source/3/spread $1, /source/4/spread $1, /source/5/spread $1, /source/6/spread $1, /source/7/spread $1, /source/8/spread $1"
 				}
 
 			}
@@ -863,8 +895,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "preset", "int", "preset", "int", "" ],
-					"patching_rect" : [ 452.0, 14.0, 126.0, 28.0 ],
-					"pattrstorage" : "DJster"
+					"patching_rect" : [ 502.0, 14.0, 126.0, 28.0 ],
+					"pattrstorage" : "DJster",
+					"presentation" : 1,
+					"presentation_rect" : [ 137.0, 14.5, 125.0, 28.0 ]
 				}
 
 			}
@@ -1906,7 +1940,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 881.0, 744.0, 411.0, 22.0 ],
+					"patching_rect" : [ 931.0, 726.0, 411.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -1920,52 +1954,68 @@
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.986251711845398, 0.00723597407341, 0.02742300927639, 1.0 ],
+					"elementcolor" : [ 0.986251711845398, 0.00723597407341, 0.02742300927639, 1.0 ],
 					"id" : "obj-53",
 					"maxclass" : "pictslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1217.0, 664.0, 75.0, 69.0 ],
+					"patching_rect" : [ 1267.0, 644.0, 75.0, 69.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 652.0, 633.0, 75.0, 69.0 ],
 					"varname" : "src4"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.399992018938065, 0.800062239170074, 0.998948574066162, 1.0 ],
+					"elementcolor" : [ 0.4, 0.8, 1.0, 1.0 ],
 					"id" : "obj-54",
 					"maxclass" : "pictslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1105.0, 664.0, 75.0, 69.0 ],
+					"patching_rect" : [ 1155.0, 644.0, 75.0, 69.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 532.0, 633.0, 75.0, 69.0 ],
 					"varname" : "src3"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.065908700227737, 0.501808941364288, 0.006823439151049, 1.0 ],
+					"elementcolor" : [ 0.066666666666667, 0.501960784313725, 0.007843137254902, 1.0 ],
 					"id" : "obj-55",
 					"maxclass" : "pictslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 993.0, 664.0, 75.0, 69.0 ],
+					"patching_rect" : [ 1043.0, 644.0, 75.0, 69.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 408.0, 633.0, 75.0, 69.0 ],
 					"varname" : "src2"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"color" : [ 0.701957762241364, 0.701978802680969, 0.701966881752014, 1.0 ],
+					"elementcolor" : [ 0.701960784313725, 0.701960784313725, 0.701960784313725, 1.0 ],
 					"id" : "obj-56",
 					"maxclass" : "pictslider",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 881.0, 664.0, 75.0, 69.0 ],
+					"patching_rect" : [ 931.0, 644.0, 75.0, 69.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 289.0, 633.0, 75.0, 69.0 ],
 					"varname" : "src1"
 				}
 
@@ -1976,7 +2026,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 112.0, 1036.0, 54.0, 22.0 ],
+					"patching_rect" : [ 162.0, 1055.0, 54.0, 22.0 ],
 					"text" : "mc.dac~"
 				}
 
@@ -1988,7 +2038,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "multichannelsignal" ],
-					"patching_rect" : [ 112.0, 999.0, 68.0, 22.0 ],
+					"patching_rect" : [ 162.0, 1018.0, 68.0, 22.0 ],
 					"text" : "mc.stereo~"
 				}
 
@@ -2000,7 +2050,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 351.0, 1029.0, 121.0, 22.0 ],
+					"patching_rect" : [ 401.0, 1029.0, 121.0, 22.0 ],
 					"text" : "routepass FullPacket"
 				}
 
@@ -2012,7 +2062,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "multichannelsignal" ],
-					"patching_rect" : [ 22.0, 744.0, 92.0, 22.0 ],
+					"patching_rect" : [ 72.0, 733.0, 92.0, 22.0 ],
 					"text" : "mc.separate~ 8"
 				}
 
@@ -2026,21 +2076,29 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "multichannelsignal", "", "float", "list" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 112.0, 875.5, 75.0, 108.0 ],
+					"patching_rect" : [ 162.0, 899.0, 75.0, 108.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 965.0, 476.0, 60.0, 79.0 ],
 					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "mc.live.gain~",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "gain",
 							"parameter_mmax" : 6.0,
 							"parameter_mmin" : -70.0,
 							"parameter_modmode" : 3,
-							"parameter_shortname" : "mc.live.gain~",
+							"parameter_shortname" : "Gain",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 4
 						}
 
 					}
 ,
-					"varname" : "mc.live.gain~"
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"varname" : "gain"
 				}
 
 			}
@@ -2051,7 +2109,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "multichannelsignal", "" ],
-					"patching_rect" : [ 112.0, 844.0, 94.0, 22.0 ],
+					"patching_rect" : [ 162.0, 863.0, 94.0, 22.0 ],
 					"text" : "mcs.matrix~ 8 4"
 				}
 
@@ -2063,7 +2121,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 314.0, 955.5, 29.0, 22.0 ],
+					"patching_rect" : [ 364.0, 956.0, 29.0, 22.0 ],
 					"text" : "thru"
 				}
 
@@ -2529,7 +2587,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 112.0, 798.0, 86.0, 22.0 ],
+					"patching_rect" : [ 162.0, 817.0, 86.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2553,7 +2611,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 200.0, 721.0, 144.0, 84.0 ],
+					"patching_rect" : [ 250.0, 721.0, 145.0, 84.0 ],
 					"text" : "don't forget to send a bang so that spat5.viewer delivers its whole state, to make sure spat5.pan is properly initialized",
 					"textjustification" : 1
 				}
@@ -2566,7 +2624,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 314.0, 869.0, 44.0, 22.0 ],
+					"patching_rect" : [ 364.0, 869.0, 44.0, 22.0 ],
 					"text" : "/status"
 				}
 
@@ -2578,7 +2636,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 277.0, 869.0, 35.0, 22.0 ],
+					"patching_rect" : [ 327.0, 869.0, 35.0, 22.0 ],
 					"text" : "/help"
 				}
 
@@ -2591,7 +2649,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 419.5, 721.0, 44.0, 15.0 ],
+					"patching_rect" : [ 470.0, 721.0, 44.0, 15.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_enum" : [ "val1", "val2" ],
@@ -2617,7 +2675,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 419.5, 739.0, 125.0, 22.0 ],
+					"patching_rect" : [ 470.0, 739.0, 125.0, 22.0 ],
 					"text" : "/speaker/*/editable $1"
 				}
 
@@ -2629,7 +2687,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 351.0, 739.0, 58.0, 22.0 ],
+					"patching_rect" : [ 401.0, 739.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 
@@ -2641,7 +2699,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 351.0, 789.0, 700.0, 22.0 ],
+					"patching_rect" : [ 401.0, 789.0, 700.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"parameter_enable" : 0
 					}
@@ -2653,30 +2711,44 @@
 			}
 , 			{
 				"box" : 				{
-					"focusbordercolor" : [ 0.0, 0.019608, 0.078431, 0.0 ],
+					"appearance" : 2,
+					"bordercolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
+					"focusbordercolor" : [ 0.047058823529412, 0.423529411764706, 0.847058823529412, 1.0 ],
 					"id" : "obj-25",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 460.0, 834.5, 44.0, 48.0 ],
+					"patching_rect" : [ 507.5, 817.0, 50.0, 80.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 913.0, 475.0, 50.0, 80.0 ],
 					"saved_attribute_attributes" : 					{
+						"bordercolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+,
 						"focusbordercolor" : 						{
 							"expression" : ""
 						}
 ,
+						"textcolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+,
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[14]",
+							"parameter_linknames" : 1,
+							"parameter_longname" : "spread",
 							"parameter_mmax" : 100.0,
 							"parameter_modmode" : 0,
-							"parameter_shortname" : "spread",
+							"parameter_shortname" : "Signal Spread",
 							"parameter_type" : 0,
 							"parameter_unitstyle" : 5
 						}
 
 					}
 ,
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ],
 					"varname" : "spread"
 				}
 
@@ -2690,7 +2762,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 724.0, 999.0, 216.0, 23.0 ],
+					"patching_rect" : [ 774.0, 999.0, 216.0, 23.0 ],
 					"text" : "double-click to open the status window"
 				}
 
@@ -2702,7 +2774,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 351.0, 999.0, 362.0, 22.0 ],
+					"patching_rect" : [ 401.0, 999.0, 362.0, 22.0 ],
 					"text" : "spat5.pan @inputs 8 @outputs 4 @initwith \"/panning/type vbap2d\""
 				}
 
@@ -2711,7 +2783,7 @@
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
@@ -2724,9 +2796,9 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 67.0, 100.0, 440.0, 713.0 ],
+						"rect" : [ 667.0, 66.0, 403.0, 673.0 ],
 						"bglocked" : 0,
-						"openinpresentation" : 0,
+						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
@@ -2735,7 +2807,7 @@
 						"gridsnaponopen" : 1,
 						"objectsnaponopen" : 1,
 						"statusbarvisible" : 2,
-						"toolbarvisible" : 1,
+						"toolbarvisible" : 0,
 						"lefttoolbarpinned" : 0,
 						"toptoolbarpinned" : 0,
 						"righttoolbarpinned" : 0,
@@ -2752,15 +2824,82 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 10.435669000000001,
+									"id" : "obj-3",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 160.0, 8.0, 31.0, 21.0 ],
+									"text" : "front"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"comment" : "",
+									"id" : "obj-2",
+									"index" : 1,
+									"maxclass" : "inlet",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 96.0, 3.5, 30.0, 30.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 10.435669000000001,
+									"id" : "obj-38",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 211.0, 7.5, 170.0, 21.0 ],
+									"text" : "window flags nofloat, window exec"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Lato",
+									"fontsize" : 10.435669000000001,
+									"id" : "obj-32",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 231.0, 33.5, 158.0, 21.0 ],
+									"text" : "window flags float, window exec"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 160.0, 66.0, 67.0, 22.0 ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
+									"text" : "thispatcher"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-4",
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 17.0, 7.0, 113.0, 22.0 ],
+									"patching_rect" : [ 17.0, 66.0, 113.0, 22.0 ],
 									"text" : "url localhost:3002/1"
 								}
 
@@ -2772,7 +2911,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 17.0, 47.0, 398.0, 668.0 ],
+									"patching_rect" : [ 17.0, 104.0, 398.0, 668.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 2.0, 2.0, 398.0, 668.0 ],
 									"rendermode" : 0,
 									"url" : "localhost:3002/1"
 								}
@@ -2780,6 +2921,43 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-3", 0 ],
+									"order" : 0,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-4", 0 ],
+									"order" : 1,
+									"source" : [ "obj-2", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-3", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-32", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 0 ],
+									"source" : [ "obj-38", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-21", 0 ],
 									"source" : [ "obj-4", 0 ]
@@ -2789,7 +2967,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 626.400009334087372, 160.0, 61.0, 22.0 ],
+					"patching_rect" : [ 9.5, 99.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3091,7 +3269,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 180.0, 52.0, 19.0, 22.0 ],
+					"patching_rect" : [ 230.0, 52.0, 19.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3120,7 +3298,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 619.0, 121.0, 754.0, 625.0 ],
+						"rect" : [ 288.0, 100.0, 754.0, 625.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -3148,6 +3326,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-25",
@@ -3573,7 +3752,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 218.0, 191.0, 51.0, 22.0 ],
+					"patching_rect" : [ 268.0, 191.0, 51.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -3633,6 +3812,18 @@
 						"assistshowspatchername" : 0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 325.0, 366.0, 57.0, 22.0 ],
+									"text" : "tosymbol"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"id" : "obj-17",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
@@ -3674,7 +3865,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 69.0, 375.0, 215.0, 22.0 ],
+									"patching_rect" : [ 69.0, 389.0, 215.0, 22.0 ],
 									"text" : "pattrforward parent::maxscore.sampler"
 								}
 
@@ -4631,7 +4822,6 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-34",
-									"int" : 1,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 5,
@@ -4649,7 +4839,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "FullPacket" ],
-									"patching_rect" : [ 223.0, 182.0, 85.0, 22.0 ],
+									"patching_rect" : [ 223.0, 172.0, 85.0, 22.0 ],
 									"text" : "o.route /player"
 								}
 
@@ -4661,7 +4851,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 5,
 									"outlettype" : [ "", "", "", "", "" ],
-									"patching_rect" : [ 289.0, 211.0, 139.0, 22.0 ],
+									"patching_rect" : [ 289.0, 209.0, 139.0, 22.0 ],
 									"text" : "regexp / @substitute %0"
 								}
 
@@ -4685,7 +4875,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 289.0, 375.0, 55.0, 22.0 ],
+									"patching_rect" : [ 289.0, 398.0, 55.0, 22.0 ],
 									"text" : "join"
 								}
 
@@ -4813,6 +5003,13 @@
 							}
  ],
 						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-11", 1 ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-34", 1 ],
 									"midpoints" : [ 298.5, 446.0, 432.166666666666686, 446.0 ],
@@ -5016,7 +5213,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-11", 1 ],
+									"destination" : [ "obj-1", 0 ],
 									"source" : [ "obj-9", 1 ]
 								}
 
@@ -5031,7 +5228,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 274.0, 191.0, 94.0, 22.0 ],
+					"patching_rect" : [ 324.0, 191.0, 94.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -5045,14 +5242,15 @@
 			}
 , 			{
 				"box" : 				{
+					"autorestore" : "Georg-2024-05-23.json",
 					"id" : "obj-20",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 180.0, 17.0, 262.0, 22.0 ],
+					"patching_rect" : [ 230.0, 17.0, 262.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 1187, 252, 1796, 568 ],
+						"client_rect" : [ 903, 252, 1512, 568 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 780, 524, 1380, 824 ]
@@ -5069,7 +5267,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1084.0, 92.0, 51.0, 20.0 ],
+					"patching_rect" : [ 1134.0, 92.0, 51.0, 20.0 ],
 					"text" : "Arousal"
 				}
 
@@ -5080,7 +5278,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1213.0, 204.0, 51.0, 20.0 ],
+					"patching_rect" : [ 1263.0, 204.0, 51.0, 20.0 ],
 					"text" : "Valence"
 				}
 
@@ -5093,7 +5291,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 1141.0, 21.0, 195.0, 178.0 ],
+					"patching_rect" : [ 1191.0, 21.0, 195.0, 178.0 ],
 					"style" : "rnbolight"
 				}
 
@@ -5105,7 +5303,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 156.0, 155.0, 35.0, 22.0 ],
+					"patching_rect" : [ 206.0, 152.0, 35.0, 22.0 ],
 					"text" : "clear"
 				}
 
@@ -5126,7 +5324,9 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang", "", "dictionary" ],
-					"patching_rect" : [ 1527.0, 314.0, 499.0, 172.0 ],
+					"patching_rect" : [ 1577.0, 314.0, 499.0, 172.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 513.0, 229.0, 499.0, 172.0 ],
 					"varname" : "Djster.µbus[3]",
 					"viewvisibility" : 1
 				}
@@ -5148,7 +5348,9 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang", "", "dictionary" ],
-					"patching_rect" : [ 1025.0, 314.0, 500.0, 172.0 ],
+					"patching_rect" : [ 1075.0, 314.0, 500.0, 172.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.0, 229.0, 500.0, 172.0 ],
 					"varname" : "Djster.µbus[2]",
 					"viewvisibility" : 1
 				}
@@ -5170,7 +5372,9 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang", "", "dictionary" ],
-					"patching_rect" : [ 524.0, 314.0, 499.0, 172.0 ],
+					"patching_rect" : [ 574.0, 314.0, 499.0, 172.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 513.0, 55.0, 499.0, 172.0 ],
 					"varname" : "Djster.µbus[1]",
 					"viewvisibility" : 1
 				}
@@ -5192,7 +5396,9 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "multichannelsignal", "dictionary" ],
-					"patching_rect" : [ 22.0, 540.0, 838.0, 173.0 ],
+					"patching_rect" : [ 72.0, 540.0, 838.0, 173.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 11.0, 424.0, 838.0, 173.0 ],
 					"varname" : "maxscore.sampler",
 					"viewvisibility" : 1
 				}
@@ -5205,7 +5411,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "" ],
-					"patching_rect" : [ 81.0, 155.0, 61.0, 22.0 ],
+					"patching_rect" : [ 131.0, 152.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"legacy" : 0,
@@ -5214,18 +5420,6 @@
 					}
 ,
 					"text" : "dict"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-49",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 103.0, 494.0, 37.0, 22.0 ],
-					"text" : "panic"
 				}
 
 			}
@@ -5245,7 +5439,9 @@
 					"numoutlets" : 4,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "bang", "", "dictionary" ],
-					"patching_rect" : [ 22.0, 314.0, 500.0, 172.0 ],
+					"patching_rect" : [ 72.0, 314.0, 500.0, 172.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 10.0, 55.0, 500.0, 172.0 ],
 					"varname" : "Djster.µbus[0]",
 					"viewvisibility" : 1
 				}
@@ -5261,7 +5457,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 466.0, 60.0, 143.0, 66.0 ],
+					"patching_rect" : [ 516.0, 60.0, 143.0, 66.0 ],
 					"saved_bundle_data" : [ 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 72, 47, 42, 0, 0, 44, 46, 0, 0, 0, 0, 0, 60, 35, 98, 117, 110, 100, 108, 101, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 47, 107, 101, 121, 0, 0, 0, 0, 44, 115, 0, 0, 99, 108, 101, 97, 114, 0, 0, 0, 0, 0, 0, 16, 47, 118, 97, 108, 0, 0, 0, 0, 44, 115, 0, 0, 42, 0, 0, 0 ],
 					"saved_bundle_length" : 92,
 					"text" : "/* : {\n  /key : \"clear\",\n  /val : \"*\"\n}"
@@ -5276,7 +5472,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 81.0, 51.0, 24.0, 24.0 ]
+					"patching_rect" : [ 131.0, 51.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 43.0, 15.0, 27.0, 27.0 ]
 				}
 
 			}
@@ -5287,7 +5485,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 81.0, 99.0, 118.0, 22.0 ],
+					"patching_rect" : [ 131.0, 99.0, 118.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "djster_webcontrol",
 						"parameter_enable" : 0
@@ -5304,7 +5502,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 99.0, 63.0, 22.0 ],
+					"patching_rect" : [ 390.0, 99.0, 63.0, 22.0 ],
 					"text" : "script stop"
 				}
 
@@ -5316,7 +5514,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 274.0, 99.0, 64.0, 22.0 ],
+					"patching_rect" : [ 324.0, 99.0, 64.0, 22.0 ],
 					"text" : "script start"
 				}
 
@@ -5328,7 +5526,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "FullPacket", "", "" ],
-					"patching_rect" : [ 274.0, 160.0, 135.0, 22.0 ],
+					"patching_rect" : [ 324.0, 160.0, 135.0, 22.0 ],
 					"text" : "drawsocket @port 3002"
 				}
 
@@ -5359,50 +5557,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-99", 1 ],
-					"source" : [ "obj-100", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-108", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-109", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
 					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-110", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-111", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-112", 0 ]
 				}
 
 			}
@@ -5451,7 +5607,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 286.5, 943.25, 323.5, 943.25 ],
+					"midpoints" : [ 336.5, 943.25, 373.5, 943.25 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -5480,8 +5636,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
-					"midpoints" : [ 31.5, 832.0, 121.5, 832.0 ],
+					"destination" : [ "obj-32", 0 ],
 					"source" : [ "obj-23", 0 ]
 				}
 
@@ -5495,16 +5650,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-114", 0 ],
-					"order" : 0,
-					"source" : [ "obj-26", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"order" : 1,
 					"source" : [ "obj-26", 0 ]
 				}
 
@@ -5519,7 +5665,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 429.0, 778.5, 360.5, 778.5 ],
+					"midpoints" : [ 479.5, 778.5, 410.5, 778.5 ],
 					"source" : [ "obj-29", 0 ]
 				}
 
@@ -5541,8 +5687,37 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
-					"midpoints" : [ 323.5, 943.25, 323.5, 943.25 ],
+					"midpoints" : [ 373.5, 943.25, 373.5, 943.25 ],
 					"source" : [ "obj-31", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"midpoints" : [ 81.5, 845.0, 171.5, 845.0 ],
+					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-33", 0 ],
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-32", 0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}
@@ -5556,7 +5731,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 475.5, 145.5, 283.5, 145.5 ],
+					"midpoints" : [ 525.5, 145.5, 333.5, 145.5 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -5578,14 +5753,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-49", 0 ]
+					"source" : [ "obj-5", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-5", 0 ]
+					"destination" : [ "obj-2", 0 ],
+					"source" : [ "obj-52", 0 ]
 				}
 
 			}
@@ -5647,6 +5822,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-6", 0 ]
 				}
@@ -5657,6 +5846,20 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 1,
 					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-62", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-3", 0 ],
+					"source" : [ "obj-63", 0 ]
 				}
 
 			}
@@ -5684,7 +5887,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-19", 0 ],
-					"midpoints" : [ 890.5, 778.75, 360.5, 778.75 ],
+					"midpoints" : [ 940.5, 778.75, 410.5, 778.75 ],
 					"source" : [ "obj-78", 0 ]
 				}
 
@@ -5706,7 +5909,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
-					"midpoints" : [ 358.5, 226.0, 426.0, 226.0, 426.0, 146.0, 283.5, 146.0 ],
+					"midpoints" : [ 408.5, 226.0, 476.0, 226.0, 476.0, 146.0, 333.5, 146.0 ],
 					"source" : [ "obj-89", 6 ]
 				}
 
@@ -5714,7 +5917,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
-					"midpoints" : [ 346.0, 235.0, 435.875, 235.0, 435.875, 87.0, 189.5, 87.0 ],
+					"midpoints" : [ 396.0, 235.0, 485.875, 235.0, 485.875, 87.0, 239.5, 87.0 ],
 					"source" : [ "obj-89", 5 ]
 				}
 
@@ -5722,7 +5925,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"midpoints" : [ 333.5, 243.0, 1536.5, 243.0 ],
+					"midpoints" : [ 383.5, 243.0, 1586.5, 243.0 ],
 					"source" : [ "obj-89", 4 ]
 				}
 
@@ -5730,6 +5933,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-26", 0 ],
+					"midpoints" : [ 346.0, 263.0, 81.5, 263.0 ],
 					"source" : [ "obj-89", 1 ]
 				}
 
@@ -5737,7 +5941,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
-					"midpoints" : [ 308.5, 262.0, 533.5, 262.0 ],
+					"midpoints" : [ 358.5, 262.0, 583.5, 262.0 ],
 					"source" : [ "obj-89", 2 ]
 				}
 
@@ -5745,7 +5949,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-8", 0 ],
-					"midpoints" : [ 321.0, 252.0, 1034.5, 252.0 ],
+					"midpoints" : [ 371.0, 252.0, 1084.5, 252.0 ],
 					"source" : [ "obj-89", 3 ]
 				}
 
@@ -5754,20 +5958,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-91", 0 ],
 					"source" : [ "obj-89", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-94", 1 ],
-					"source" : [ "obj-92", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-96", 1 ],
-					"source" : [ "obj-98", 0 ]
 				}
 
 			}
@@ -5808,8 +5998,8 @@
 			"obj-15::obj-77" : [ "Cohesion[3]", "Melodic Cohesion", 0 ],
 			"obj-15::obj-87" : [ "menu[3]", "menu", 0 ],
 			"obj-15::obj-88" : [ "live.text[7]", "Scala Browser", 0 ],
-			"obj-16" : [ "mc.live.gain~", "mc.live.gain~", 0 ],
-			"obj-25" : [ "live.dial[14]", "spread", 0 ],
+			"obj-16" : [ "gain", "Gain", 0 ],
+			"obj-25" : [ "spread", "Signal Spread", 0 ],
 			"obj-26::obj-1" : [ "Outset Pulses", "Outset Pulses", 0 ],
 			"obj-26::obj-104" : [ "umenu", "Tonality Profile", 0 ],
 			"obj-26::obj-109" : [ "stream", "Play", 0 ],
@@ -5846,6 +6036,7 @@
 			"obj-26::obj-87" : [ "menu", "menu", 0 ],
 			"obj-26::obj-88" : [ "live.text", "Scala Browser", 0 ],
 			"obj-30" : [ "live.toggle[12]", "live.toggle[2]", 0 ],
+			"obj-34" : [ "amount", "Reverb Time", 0 ],
 			"obj-3::obj-10" : [ "live.text[24]", "live.text", 0 ],
 			"obj-3::obj-2" : [ "live.text[38]", "live.text", 0 ],
 			"obj-3::obj-23" : [ "live.tab", "live.tab", 0 ],
@@ -6062,17 +6253,6 @@
 			"obj-5::obj-77" : [ "Cohesion[1]", "Melodic Cohesion", 0 ],
 			"obj-5::obj-87" : [ "menu[1]", "menu", 0 ],
 			"obj-5::obj-88" : [ "live.text[41]", "Scala Browser", 0 ],
-			"obj-83::obj-1" : [ "Mix", "Mix", 0 ],
-			"obj-83::obj-21" : [ "HPF", "HPF", 0 ],
-			"obj-83::obj-25" : [ "LPF", "LPF", 0 ],
-			"obj-83::obj-28" : [ "Feedback", "Feedback", 0 ],
-			"obj-83::obj-7" : [ "bypass", "bypass", 0 ],
-			"obj-83::obj-9" : [ "time", "Time", 0 ],
-			"obj-84::obj-101" : [ "Dry", "Dry", 0 ],
-			"obj-84::obj-26" : [ "bypass[3]", "bypass", 0 ],
-			"obj-84::obj-31" : [ "Feedback1", "FB1", 0 ],
-			"obj-84::obj-32" : [ "Feedback2", "FB2", 0 ],
-			"obj-84::obj-33" : [ "Damp[1]", "Damp", 0 ],
 			"obj-8::obj-1" : [ "Outset Pulses[2]", "Outset Pulses", 0 ],
 			"obj-8::obj-104" : [ "umenu[2]", "Tonality Profile", 0 ],
 			"obj-8::obj-109" : [ "stream[2]", "Play", 0 ],
@@ -6249,7 +6429,7 @@
 ,
 				"obj-26::obj-1" : 				{
 					"parameter_longname" : "Outset Pulses",
-					"parameter_range" : [ 1, 8 ]
+					"parameter_range" : [ 1, 24 ]
 				}
 ,
 				"obj-26::obj-104" : 				{
@@ -6265,10 +6445,10 @@
 				}
 ,
 				"obj-26::obj-110" : 				{
-					"parameter_initial" : 99,
+					"parameter_initial" : 1000,
 					"parameter_longname" : "Event Length Percent",
-					"parameter_range" : [ 1.0, 1000.0 ],
-					"parameter_unitstyle" : 5
+					"parameter_range" : [ 20.0, 20000.0 ],
+					"parameter_unitstyle" : 2
 				}
 ,
 				"obj-26::obj-115" : 				{
@@ -6397,7 +6577,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[34]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6418,7 +6598,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[33]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6439,7 +6619,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[32]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6460,7 +6640,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[31]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6481,7 +6661,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[30]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6502,7 +6682,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[29]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6523,7 +6703,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[28]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6544,7 +6724,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[27]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6565,7 +6745,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[26]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6586,7 +6766,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[25]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6607,7 +6787,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[24]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6628,7 +6808,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[23]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6649,7 +6829,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[22]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6670,7 +6850,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[21]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6691,7 +6871,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[20]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6712,7 +6892,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[19]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6733,7 +6913,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[18]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6754,7 +6934,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[17]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6775,7 +6955,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[16]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6796,7 +6976,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[15]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6817,7 +6997,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[14]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6838,7 +7018,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[13]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6859,7 +7039,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[12]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6880,7 +7060,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[11]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6901,7 +7081,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[10]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6922,7 +7102,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[9]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6943,7 +7123,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[8]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6964,7 +7144,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[7]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -6985,7 +7165,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[6]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -7006,7 +7186,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[5]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -7027,7 +7207,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[4]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -7044,7 +7224,7 @@
 					"parameter_invisible" : 0,
 					"parameter_longname" : "Instrument[3]",
 					"parameter_modmode" : 0,
-					"parameter_range" : [ "<none>", "HSS_acoustic_pack1_bowl1.instr.json", "HSS_acoustic_pack1_energychime_plastic.instr.json", "HSS_acoustic_pack1_energychime_wood.instr.json", "HSS_acoustic_pack1_jing_cotton_harmonics.instr.json", "HSS_acoustic_pack1_jing_cotton_ord.instr.json", "HSS_acoustic_pack1_kalimba_bass.instr.json", "HSS_acoustic_pack1_kalimba1_circleskin.instr.json", "HSS_acoustic_pack1_kalimba2_wood.instr.json" ],
+					"parameter_range" : [ "<none>", "Bell-1.instr", "Bell-2.instr", "Hi_Voweler.instr", "Dreamers.instr", "Kalimbell.instr", "Wave_4.instr", "Dark_Monkey.instr", "Digi_Vocal.instr", "Mini_Moog.instr", "Synth_1980.instr", "E-Pad.instr", "Equinox.instr", "Galaxis.instr", "Venus_Pad.instr", "Celeste.instr", "percussion_glockenspiel_Glockenspiel-beaters_ordinario.instr", "Marimba.instr", "Stopped_Piano.instr", "Cymbales_Antiques.instr", "FretSound.instr", "Bandoneon.instr" ],
 					"parameter_type" : 2,
 					"parameter_unitstyle" : 10
 				}
@@ -7058,15 +7238,15 @@
 				}
 ,
 				"obj-3::obj-43::obj-17::obj-3::obj-24" : 				{
-					"parameter_range" : [ 0.0, 3716.170000000000073 ]
+					"parameter_range" : [ 0.0, 18433.740000000001601 ]
 				}
 ,
 				"obj-3::obj-43::obj-17::obj-3::obj-27" : 				{
-					"parameter_range" : [ 0.0, 3716.170000000000073 ]
+					"parameter_range" : [ 0.0, 18433.740000000001601 ]
 				}
 ,
 				"obj-3::obj-43::obj-17::obj-3::obj-6" : 				{
-					"parameter_range" : [ 0.0, 3716.170000000000073 ]
+					"parameter_range" : [ 0.0, 18433.740000000001601 ]
 				}
 ,
 				"obj-5::obj-1" : 				{
@@ -7354,6 +7534,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Georg-2024-05-23.json",
+				"bootpath" : "/Users/Shared/Max 8/Library/healing-soundscapes/Presets",
+				"patcherrelativepath" : "./Presets",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "Inner-Equation.5.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/DJster/dispenser",
 				"patcherrelativepath" : "../../Packages/MaxScore/patchers/DJster/dispenser",
@@ -7364,12 +7551,6 @@
 				"name" : "Inside.3.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/DJster/dispenser",
 				"patcherrelativepath" : "../../Packages/MaxScore/patchers/DJster/dispenser",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "M4L.bal2~.maxpat",
-				"bootpath" : "C74:/patchers/m4l/Tools resources",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -7451,18 +7632,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "bp.Feedback Delay.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bp.Freeverb.maxpat",
-				"bootpath" : "C74:/packages/BEAP/clippings/BEAP/Effects",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "bytecount.maxpat",
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/DJster/core",
 				"patcherrelativepath" : "../../Packages/MaxScore/patchers/DJster/core",
@@ -7513,7 +7682,7 @@
 			}
 , 			{
 				"name" : "djster_webcontrol.js",
-				"bootpath" : "/Users/Shared/Max 8/Library/DJster",
+				"bootpath" : "/Users/Shared/Max 8/Library/healing-soundscapes",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
@@ -7537,27 +7706,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/DJster/dispenser",
 				"patcherrelativepath" : "../../Packages/MaxScore/patchers/DJster/dispenser",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "freeverb.gendsp",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/gen",
-				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/gen",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "freeverb_allpass.gendsp",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/gen",
-				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/gen",
-				"type" : "gDSP",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "freeverb_comb.gendsp",
-				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/gen",
-				"patcherrelativepath" : "../../../../hajdu/Library/Application Support/Cycling '74/Max 8/Examples/gen",
-				"type" : "gDSP",
 				"implicit" : 1
 			}
 , 			{
@@ -7793,6 +7941,10 @@
 			}
 , 			{
 				"name" : "spat5.pan.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "spat5.reverb~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -81842,7 +81994,8 @@
 				"parentstyle" : "",
 				"multi" : 0
 			}
- ]
+ ],
+		"bgcolor" : [ 0.32156862745098, 0.32156862745098, 0.32156862745098, 1.0 ]
 	}
 
 }

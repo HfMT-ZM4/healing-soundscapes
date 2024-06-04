@@ -122,7 +122,7 @@ svg.push({
         "id" : "background",
         "x" : 0,
         "y" : 0,
-        "width" : "375px",//viewport width of iphone 8; iPhone 5: 320px 
+        "width" : "400px",//viewport width of iphone 8; iPhone 5: 320px 
         "height" : "667px",//viewport height of iphone 8; iPhone 5: 568px
         "fill" : background,
 		});	
@@ -195,10 +195,10 @@ svg.push({
 	addSlider(i, "player" + i, "Attenuation", "attenuation", 11, [0, 100], 1, 15, "this.value", "this.value");
 	}
 	createSpatBox();
-	addSlider(0, "roomDIV", "Gain", "gain", 2, [0, 100], 1, 50, "this.value", "this.value");
-	addSlider(0, "roomDIV", "Signal Spread", "spread", 3, [0, 100], 1, 50, "this.value", "this.value");
-	addSlider(0, "roomDIV", "Reverb Amount", "amount", 4, [0, 100], 1, 50, "this.value", "this.value");
-	addSlider(0, "roomDIV", "Room Size", "roomsize", 5, [0, 100], 1, 50, "this.value", "this.value");
+	addSlider(0, "roomDIV", "Gain (dB)", "gain", 2, [-70, 6], 1, -10, "this.value", "this.value");
+	addSlider(0, "roomDIV", "Sig. Spread (%)", "spread", 3, [0, 100], 1, 25, "this.value", "this.value");
+	addSlider(0, "roomDIV", "Rev. Time (ms)", "amount", 4, [500, 3000], 1, 1500, "this.value", "this.value");
+	//addSlider(0, "roomDIV", "Room Size", "roomsize", 5, [0, 100], 1, 50, "this.value", "this.value");
 	
 
 	elements.push(
