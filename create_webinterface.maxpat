@@ -40,6 +40,27 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 794.0, 24.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 794.0, 18.5, 75.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.maxwindow_posttext"
+						}
+
+					}
+,
+					"text" : "Web Server:",
+					"textcolor" : [ 0.968627, 0.968627, 0.968627, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-63",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -762,7 +783,7 @@
 								"/window/opaque" : 1,
 								"/window/titlebar" : 1,
 								"/window/fullscreen" : 0,
-								"/window/minimise" : 0,
+								"/window/minimise" : 1,
 								"/window/scale" : 100.0,
 								"/window/rendering/engine" : "CoreGraphics Renderer",
 								"/window/rendering/fps/visible" : 0,
@@ -3326,7 +3347,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-25",
@@ -5250,7 +5270,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 230.0, 17.0, 262.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 903, 252, 1512, 568 ],
+						"client_rect" : [ 1187, 252, 1796, 568 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 780, 524, 1380, 824 ]
@@ -5503,6 +5523,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.0, 99.0, 63.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 943.0, 17.5, 63.0, 22.0 ],
 					"text" : "script stop"
 				}
 
@@ -5515,6 +5537,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 324.0, 99.0, 64.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 877.0, 17.5, 64.0, 22.0 ],
 					"text" : "script start"
 				}
 
@@ -7678,13 +7702,6 @@
 				"bootpath" : "/Users/Shared/Max 8/Packages/MaxScore/patchers/DJster/core",
 				"patcherrelativepath" : "../../Packages/MaxScore/patchers/DJster/core",
 				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "djster_webcontrol.js",
-				"bootpath" : "/Users/Shared/Max 8/Library/healing-soundscapes",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
