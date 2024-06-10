@@ -258,7 +258,7 @@ svg.push({
 	});
 	
 	addButton("systemDIV", "cancelbutton", "Cancel", "background-color:" + nonactive + ";margin-left:20vw;", "document.getElementById('basicDIV').style.display='block';document.getElementById('expertDIV').style.display='none';document.getElementById('roomDIV').style.display='none';document.getElementById('spat').style.display='none';document.getElementById('systemDIV').style.display='none';document.getElementById('manualDIV').style.display='none';document.getElementById('basic').style['background-color']='" + active + "';document.getElementById('expert').style['background-color']='" + nonactive + "';document.getElementById('room').style['background-color']='" + nonactive + "';document.getElementById('system').style['background-color']='" + nonactive + "';document.getElementById('manual').style['background-color']='" + nonactive + "';");
-	addButton("systemDIV", "proceedbutton", "Shut Down", "background-color:" + alert + ";margin-left:15vw;", "none");
+	addButton("systemDIV", "proceedbutton", "Shut Down", "background-color:" + alert + ";margin-left:15vw;", "drawsocket.send({system: {shutdown : true}})");
 	
 	elements.push(
 	{

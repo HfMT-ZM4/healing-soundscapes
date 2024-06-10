@@ -1,0 +1,9 @@
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path /Users/Shared/Max 8/Library/healing-soundscapes/package.json
+npm ERR! errno -2
+npm ERR! enoent ENOENT: no such file or directory, open '/Users/Shared/Max 8/Library/healing-soundscapes/package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent 
+
+npm ERR! A complete log of this run can be found in: /Users/hajdu/.npm/_logs/2024-06-10T05_31_41_379Z-debug-0.log
