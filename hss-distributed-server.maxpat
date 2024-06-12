@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1021.0, 413.0 ],
+		"rect" : [ 40.0, 87.0, 1021.0, 413.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,53 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-44",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 369.0, 17.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 358.0, 18.5, 34.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"text" : "write"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 250.0, 19.0, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 270.0, 18.5, 33.0, 20.0 ],
+					"saved_attribute_attributes" : 					{
+						"textcolor" : 						{
+							"expression" : "themecolor.theme_textcolor"
+						}
+
+					}
+,
+					"text" : "read"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-42",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 592.0, 20.0, 150.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 606.0, 18.5, 62.0, 20.0 ],
+					"presentation_rect" : [ 671.0, 18.5, 62.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"textcolor" : 						{
 							"expression" : "themecolor.theme_textcolor"
@@ -67,7 +107,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 440.0, 197.0, 33.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 670.0, 17.5, 33.0, 22.0 ],
+					"presentation_rect" : [ 735.0, 17.5, 33.0, 22.0 ],
 					"text" : "read"
 				}
 
@@ -341,7 +381,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 48.0, 86.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 456.0, 15.0, 109.0, 27.0 ],
+					"presentation_rect" : [ 491.0, 15.0, 109.0, 27.0 ],
 					"text" : "Open Interface",
 					"textoncolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -412,6 +452,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 728.0, 109.0, 46.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 305.0, 17.5, 46.0, 22.0 ],
 					"text" : "read, 1"
 				}
 
@@ -450,6 +492,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 714.0, 77.0, 56.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 394.0, 17.5, 56.0, 22.0 ],
 					"text" : "writejson"
 				}
 
@@ -573,7 +617,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 1174.0, 355.0, 403.0, 673.0 ],
+						"rect" : [ 1173.0, 373.0, 403.0, 673.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
 						"default_fontsize" : 12.0,
@@ -601,6 +645,7 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Lato",
@@ -1084,7 +1129,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 116.0, 100.0, 1067.0, 643.0 ],
+						"rect" : [ 116.0, 198.0, 1067.0, 643.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1143,7 +1188,7 @@
 										}
 ,
 										"classnamespace" : "box",
-										"rect" : [ 293.0, 122.0, 717.0, 660.0 ],
+										"rect" : [ 293.0, 220.0, 717.0, 660.0 ],
 										"bglocked" : 0,
 										"openinpresentation" : 0,
 										"default_fontsize" : 12.0,
@@ -1172,6 +1217,26 @@
 										"subpatcher_template" : "",
 										"assistshowspatchername" : 0,
 										"boxes" : [ 											{
+												"box" : 												{
+													"id" : "obj-25",
+													"maxclass" : "newobj",
+													"numinlets" : 1,
+													"numoutlets" : 4,
+													"outlettype" : [ "", "", "", "" ],
+													"patching_rect" : [ 426.0, 516.0, 56.0, 22.0 ],
+													"restore" : 													{
+														"instrument-1" : [ "Bell-1.instr" ],
+														"instrument-2" : [ "E-Pad.instr" ],
+														"instrument-3" : [ "Marimba.instr" ],
+														"instrument-4" : [ "Cymbales_Antiques.instr" ]
+													}
+,
+													"text" : "autopattr",
+													"varname" : "u249023098"
+												}
+
+											}
+, 											{
 												"box" : 												{
 													"id" : "obj-24",
 													"maxclass" : "newobj",
@@ -1321,6 +1386,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 312.0, 445.0, 100.0, 22.0 ],
+													"pattrmode" : 1,
 													"varname" : "instrument-4"
 												}
 
@@ -1335,6 +1401,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 277.0, 415.0, 100.0, 22.0 ],
+													"pattrmode" : 1,
 													"varname" : "instrument-3"
 												}
 
@@ -1349,6 +1416,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 242.0, 385.0, 100.0, 22.0 ],
+													"pattrmode" : 1,
 													"varname" : "instrument-2"
 												}
 
@@ -1423,6 +1491,7 @@
 													"outlettype" : [ "int", "", "" ],
 													"parameter_enable" : 0,
 													"patching_rect" : [ 207.0, 357.0, 100.0, 22.0 ],
+													"pattrmode" : 1,
 													"varname" : "instrument-1"
 												}
 
@@ -1781,7 +1850,8 @@
 										"tags" : ""
 									}
 ,
-									"text" : "p instrument"
+									"text" : "p instrument",
+									"varname" : "instrument"
 								}
 
 							}
@@ -3873,6 +3943,7 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-34",
+									"int" : 4,
 									"maxclass" : "gswitch2",
 									"numinlets" : 2,
 									"numoutlets" : 5,
@@ -4312,7 +4383,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 268.0, 10.0, 262.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 477, 213, 1086, 529 ],
+						"client_rect" : [ 618, 87, 1725, 904 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
 						"storage_rect" : [ 780, 524, 1380, 824 ]
