@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 346.0, 100.0, 1071.0, 842.0 ],
+		"rect" : [ 469.0, 100.0, 1009.0, 842.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -457,7 +457,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 70.0, 54.0, 22.0 ],
+					"patching_rect" : [ 477.0, 66.0, 54.0, 22.0 ],
 					"text" : "deferlow"
 				}
 
@@ -470,7 +470,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 540.0, 126.0, 508.0, 35.0 ],
+					"patching_rect" : [ 477.0, 122.0, 508.0, 35.0 ],
 					"text" : "instrument <none> 1 2 0 1, instrument <none> 3 4 0 2, instrument <none> 5 6 0 3, instrument <none> 7 8 0 4, instrument Bell-1.instr 1 2 0 1"
 				}
 
@@ -482,7 +482,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 620.0, 94.0, 132.0, 22.0 ],
+					"patching_rect" : [ 507.5, 94.0, 132.0, 22.0 ],
 					"text" : "bank Tutorial.bank.json"
 				}
 
@@ -493,7 +493,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 580.0, 94.0, 35.0, 22.0 ],
+					"patching_rect" : [ 538.0, 66.0, 35.0, 22.0 ],
 					"text" : "dac~"
 				}
 
@@ -505,7 +505,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "bang", "bang", "start" ],
-					"patching_rect" : [ 540.0, 41.0, 59.0, 22.0 ],
+					"patching_rect" : [ 477.0, 37.0, 80.0, 22.0 ],
 					"text" : "t b b start"
 				}
 
@@ -517,7 +517,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 540.0, 12.0, 58.0, 22.0 ],
+					"patching_rect" : [ 477.0, 8.0, 58.0, 22.0 ],
 					"text" : "loadbang"
 				}
 

@@ -625,10 +625,32 @@ function createSpatBox()
 </svg>
 */
 
-function dictionary(name)
+function dictionary()
 {
 	var d = new Dict;
-	d.name = name;
+	d.name = p[1];
+	var obj = {};
+	var out = new Dict;
+	obj["*"] = {
+	"key" : "html",
+	"val" : [{
+			"id" : msg + "_" + (index1 - 1),
+			"value" : val
+		}
+		, {
+			"id" : msg + "_num" + "_" + (index1 - 1),
+			"value" : val
+		}]
+	};
+	out.parse(JSON.stringify(obj));
+	outlet(0, "dictionary", out.name);
+}
+
+function param()
+{
+	var p = arrayfromargs(arguments);
+	var d = new Dict;
+	d.name = p[1];
 	var obj = {};
 	var out = new Dict;
 	var keys = d.getkeys();
