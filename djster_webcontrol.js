@@ -195,15 +195,15 @@ svg.push({
 	addSlider(i, "player" + i, "Attenuation", "attenuation", 11, [0, 100], 1, 15, "this.value", "this.value");
 	}
 	createSpatBox();
-	addSlider(0, "roomDIV", "Gain (dB)", "gain", 2, [-70, 6], 1, -10, "this.value", "this.value");
-	addSlider(0, "roomDIV", "Room Size", "roomsize", 3, [1, 300], 1, 75, "this.value", "this.value");//
-	addSlider(0, "roomDIV", "Rev. Time (ms)", "amount", 4, [0.5, 15], 0.1, 11, "this.value", "this.value");//
-	addSlider(0, "roomDIV", "Spread", "spread", 5, [0, 100], 1, 23, "this.value", "this.value");//
-	addSlider(0, "roomDIV", "Bandwidth", "bandwidth", 6, [0, 100], 1, 50, "this.value", "this.value"); //50
-	addSlider(0, "roomDIV", "Damping", "damping", 7, [0, 100], 1, 70, "this.value", "this.value");//
-	addSlider(0, "roomDIV", "Early", "early", 8, [0, 100], 1, 25, "this.value", "this.value");//
-	addSlider(0, "roomDIV", "Tail", "tail", 9, [0, 100], 1, 25, "this.value", "this.value");//
-	addSlider(0, "roomDIV", "Dry", "dry", 10, [0, 100], 1, 100, "this.value", "this.value");//
+	addSlider(-1, "roomDIV", "Gain (dB)", "gain", 2, [-70, 6], 1, -10, "this.value", "this.value");
+	addSlider(-1, "roomDIV", "Room Size", "roomsize", 3, [1, 300], 1, 75, "this.value", "this.value");//
+	addSlider(-1, "roomDIV", "Rev. Time (ms)", "amount", 4, [0.5, 15], 0.1, 11, "this.value", "this.value");//
+	addSlider(-1, "roomDIV", "Spread", "spread", 5, [0, 100], 1, 23, "this.value", "this.value");//
+	addSlider(-1, "roomDIV", "Bandwidth", "bandwidth", 6, [0, 100], 1, 50, "this.value", "this.value"); //50
+	addSlider(-1, "roomDIV", "Damping", "damping", 7, [0, 100], 1, 70, "this.value", "this.value");//
+	addSlider(-1, "roomDIV", "Early", "early", 8, [0, 100], 1, 25, "this.value", "this.value");//
+	addSlider(-1, "roomDIV", "Tail", "tail", 9, [0, 100], 1, 25, "this.value", "this.value");//
+	addSlider(-1, "roomDIV", "Dry", "dry", 10, [0, 100], 1, 100, "this.value", "this.value");//
 	
 
 	elements.push(
