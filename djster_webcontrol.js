@@ -46,6 +46,12 @@ var alert = "red";
 var textcolor = "#737373";
 var background = "ivory";
 
+function setInstruments()
+{
+	instruments = arrayfromargs(arguments);
+	bang();
+}
+
 function bang()
 {
 
