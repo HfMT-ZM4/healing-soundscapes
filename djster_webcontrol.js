@@ -181,24 +181,26 @@ svg.push({
 	
 	
 	for (var i = 0; i < 4; i++) {
+	var j = 0;
 	addMenu(i, "player" + i, "Instrument", "instrument", 36, 0, instruments, "narrow");
 	addMenu(i, "player" + i, "Scale", "scale", 66, 0, scales, "narrow");
 	addMenu(i, "player" + i, "Meter", "meter", 96, 11, meters, "narrow");
 	addCheckbox(i, "player" + i, "On", "stream", 36, 0, "right");
 	addCheckbox(i, "player" + i, "Sorted", "sorted", 66, 0, "right");
 	addCheckbox(i, "player" + i, "Overlap", "overlap", 96, 0, "right");
-	addSlider(i, "player" + i, "Eventfulness", "eventfulness", 0, [0, 100], 1, 100, "this.value", "this.value");
-	addSlider(i, "player" + i, "Event Length", "event_length", 1, [5, 100], 1, 100, "this.value", "this.value");
-	addSlider(i, "player" + i, "Metriclarity", "metriclarity", 2, [0, 100], 1, 100, "this.value", "this.value");
-	addSlider(i, "player" + i, "Harmoniclarity", "harmoniclarity", 3, [0, 100], 1, 50, "this.value", "this.value");
-	addSlider(i, "player" + i, "Chordal Weight", "chordal_weight", 4, [1, 5], 1, 1, "this.value", "this.value");
-	addSlider(i, "player" + i, "Mel. Cohesion", "melodic_cohesion", 5, [-100, 100], 1, 50, "this.value", "this.value");
-	addSlider(i, "player" + i, "Melody Scope", "melody_scope", 6, [0, 36], 1, 7, "this.value", "this.value");
-	addSlider(i, "player" + i, "Tonic Pitch", "tonic_pitch", 7, [12, 96], 1, 36, "['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'][Number(this.value) % 12] + (parseInt((this.value) / 12) - 2)", "this.value");
-	addSlider(i, "player" + i, "Pitch Center", "pitch_center", 8, [12, 96], 1, 60, "['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'][Number(this.value) % 12] + (parseInt((this.value) / 12) - 2)", "this.value");
-	addSlider(i, "player" + i, "Pitch Range", "pitch_range", 9, [0, 36], 1, 7, "this.value", "this.value");
-	addSlider(i, "player" + i, "Dynamics", "dynamics", 10, [0, 127], 1, 64, "this.value", "this.value");
-	addSlider(i, "player" + i, "Attenuation", "attenuation", 11, [0, 100], 1, 15, "this.value", "this.value");
+	addSlider(i, "player" + i, "Outset Pulses", "outset_pulses", j++, [1, 16], 1, 1, "this.value", "this.value");
+	addSlider(i, "player" + i, "Eventfulness", "eventfulness", j++, [0, 100], 1, 100, "this.value", "this.value");
+	addSlider(i, "player" + i, "Event Length", "event_length", j++, [5, 100], 1, 100, "this.value", "this.value");
+	addSlider(i, "player" + i, "Metriclarity", "metriclarity", j++, [0, 100], 1, 100, "this.value", "this.value");
+	addSlider(i, "player" + i, "Harmoniclarity", "harmoniclarity", j++, [0, 100], 1, 50, "this.value", "this.value");
+	addSlider(i, "player" + i, "Chordal Weight", "chordal_weight", j++, [1, 5], 1, 1, "this.value", "this.value");
+	addSlider(i, "player" + i, "Mel. Cohesion", "melodic_cohesion", j++, [-100, 100], 1, 50, "this.value", "this.value");
+	addSlider(i, "player" + i, "Melody Scope", "melody_scope", j++, [0, 36], 1, 7, "this.value", "this.value");
+	addSlider(i, "player" + i, "Tonic Pitch", "tonic_pitch", j++, [12, 96], 1, 36, "['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'][Number(this.value) % 12] + (parseInt((this.value) / 12) - 2)", "this.value");
+	addSlider(i, "player" + i, "Pitch Center", "pitch_center", j++, [12, 96], 1, 60, "['C', 'C#', 'D', 'D#', 'E', 'F', 'F#', 'G', 'G#', 'A', 'A#', 'B'][Number(this.value) % 12] + (parseInt((this.value) / 12) - 2)", "this.value");
+	addSlider(i, "player" + i, "Pitch Range", "pitch_range", j++, [0, 36], 1, 7, "this.value", "this.value");
+	addSlider(i, "player" + i, "Dynamics", "dynamics", j++, [0, 127], 1, 64, "this.value", "this.value");
+	addSlider(i, "player" + i, "Attenuation", "attenuation", j++, [0, 100], 1, 15, "this.value", "this.value");
 	}
 	createSpatBox();
 	addSlider(-1, "roomDIV", "Gain (dB)", "gain", 2, [-70, 6], 1, -10, "this.value", "this.value");

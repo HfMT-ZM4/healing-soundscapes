@@ -1,3 +1,7 @@
+inlets = 2
+outlets = 2;
+
+
 var presets = [];
 var hsspiece = {};
 var outdict = new Dict;
