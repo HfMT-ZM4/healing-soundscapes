@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 100.0, 1445.0, 770.0 ],
+		"rect" : [ 34.0, 100.0, 1422.0, 813.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -247,20 +247,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1240.0, 394.0, 64.0, 22.0 ],
+					"patching_rect" : [ 1240.0, 384.0, 64.0, 22.0 ],
 					"presentation_linecount" : 3,
 					"text" : "writePiece"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-85",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 1117.0, 552.0, 42.0, 22.0 ],
-					"text" : "print 1"
 				}
 
 			}
@@ -436,7 +425,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 105.0, 100.0, 1095.0, 811.0 ],
+						"rect" : [ 267.0, 100.0, 1095.0, 811.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -857,7 +846,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 478.0, 12.5, 238.0, 33.0 ],
+									"patching_rect" : [ 478.0, 4.0, 238.0, 33.0 ],
 									"text" : "get 5 presets at 20 parameters for 4 corners and 1 midpoint from piecemaker.js"
 								}
 
@@ -2215,7 +2204,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 845.0, 224.0, 115.0, 22.0 ],
+					"patching_rect" : [ 1167.0, 497.0, 115.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -2247,7 +2236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1144.0, 475.0, 34.0, 22.0 ],
+					"patching_rect" : [ 1144.0, 545.0, 34.0, 22.0 ],
 					"text" : "write"
 				}
 
@@ -2271,7 +2260,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 5,
 					"outlettype" : [ "dictionary", "", "", "", "" ],
-					"patching_rect" : [ 1117.0, 513.0, 61.0, 22.0 ],
+					"patching_rect" : [ 1117.0, 583.0, 61.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 0,
 						"legacy" : 0,
@@ -2290,7 +2279,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1117.0, 436.0, 119.0, 22.0 ],
+					"patching_rect" : [ 1117.0, 447.0, 119.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"filename" : "hss.piecemaker.js",
 						"parameter_enable" : 0
@@ -6886,10 +6875,10 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1112.0, 249.0, 265.0, 35.0 ],
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 4, 44, 358, 172 ],
+						"client_rect" : [ 1187, 252, 1796, 568 ],
 						"parameter_enable" : 0,
 						"parameter_mappable" : 0,
-						"storage_rect" : [ 583, 69, 1034, 197 ]
+						"storage_rect" : [ 780, 524, 1380, 824 ]
 					}
 ,
 					"text" : "pattrstorage DJster @greedy 1 @outputmode 2 @changemode 1",
@@ -7324,7 +7313,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-20", 0 ],
-					"midpoints" : [ 1226.5, 472.0, 1401.5, 472.0, 1401.5, 241.0, 1121.5, 241.0 ],
+					"midpoints" : [ 1226.5, 483.0, 1401.5, 483.0, 1401.5, 241.0, 1121.5, 241.0 ],
 					"source" : [ "obj-29", 2 ]
 				}
 
@@ -7339,7 +7328,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 0 ],
-					"midpoints" : [ 1176.5, 464.0, 1098.5, 464.0, 1098.5, 202.0, 854.5, 202.0 ],
 					"source" : [ "obj-29", 1 ]
 				}
 
@@ -7377,7 +7365,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-29", 1 ],
-					"midpoints" : [ 854.5, 286.0, 1226.5, 286.0 ],
+					"midpoints" : [ 1176.5, 535.0, 1296.5, 535.0, 1296.5, 425.0, 1226.5, 425.0 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -7429,6 +7417,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-48", 1 ],
+					"midpoints" : [ 950.5, 294.0, 1272.5, 294.0 ],
 					"source" : [ "obj-59", 0 ]
 				}
 
